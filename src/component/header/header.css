@@ -1,0 +1,52 @@
+.site-header {
+  padding: 13px 0;
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  /* position: relative; */
+  height: 50px;
+}
+
+.desktop-logo,
+.mobile-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+.desktop-logo {
+  display: none;
+  width: 260.39px;
+  height: 81.29px;
+  left: 143px;
+  top: 23px;
+}
+
+.mobile-logo {
+  display: block;
+  width: 157.92px;
+  height: 50.03px;
+  left: 9.42px;
+  top: 13.02px;
+}
+
+@media screen and (min-width: 768px) {
+  /* .site-header {
+    padding: 23px 0;
+    height: 81.29px;
+  } */
+
+  .logo-container {
+    height: 81px;
+  }
+
+  .desktop-logo {
+    display: block;
+  }
+
+  .mobile-logo {
+    display: none;
+  }
+}

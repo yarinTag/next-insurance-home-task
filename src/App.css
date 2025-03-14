@@ -1,0 +1,11 @@
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.Main {
+  width: 100%;
+  padding: 20px 0;
+  background: #00d7ff 0% 0% no-repeat padding-box;
+}
